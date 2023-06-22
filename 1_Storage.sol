@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.7.0 <0.9.0;
+pragma solidity 0.8.7;
 
 contract SimpleStorage {
 
     Person[] public employees;
 
-    mapping(string => uint256) salaries;
+    mapping(string => uint256) public salaries;
 
     struct Person {
         string name;

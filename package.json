@@ -1,0 +1,23 @@
+{
+  "name": "simple-contructs",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "dependencies": {
+    "ethers": "~6.2.3",
+    "solc": "~0.8.7-fixed"
+  },
+  "scripts": {
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path . -o . 1_Storage.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MChuduk/simple-contructs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MChuduk/simple-contructs/issues"
+  },
+  "homepage": "https://github.com/MChuduk/simple-contructs#readme",
+  "description": ""
+}
