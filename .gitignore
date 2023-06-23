@@ -1,4 +1,12 @@
-.idea
 node_modules
-*.bin
-*.abi
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+.idea
+
